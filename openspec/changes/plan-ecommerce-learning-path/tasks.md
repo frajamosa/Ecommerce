@@ -4,7 +4,7 @@
 
 ## 1. Preparacion y fundamentos de TypeScript
 
-- [ ] 1.1 Sesion: preparar el entorno. **Objetivo:** disponer de Node LTS compatible, pnpm, Docker y Git. **Conceptos:** runtime, gestor de paquetes y contenedores. **Construye:** documenta versiones y crea `.env.example` sin secretos. **Verifica/cierre:** los comandos de version y `docker run --rm hello-world` funcionan, y puedes explicar que aporta cada herramienta.
+- [x] 1.1 Sesion: preparar el entorno. **Objetivo:** disponer de Node LTS compatible, pnpm, Docker y Git. **Conceptos:** runtime, gestor de paquetes y contenedores. **Construye:** documenta versiones y crea `.env.example` sin secretos. **Verifica/cierre:** los comandos de version y `docker run --rm hello-world` funcionan, y puedes explicar que aporta cada herramienta.
 - [ ] 1.2 Sesion: practicar TypeScript estricto fuera del framework. **Objetivo:** modelar `Product`, dinero y resultados de exito/error. **Conceptos:** `unknown`, uniones discriminadas, genericos, inmutabilidad y narrowing. **Construye:** ejercicios pequenos que transformen y validen datos sin `any`. **Verifica/cierre:** `tsc --noEmit` y pruebas de los ejercicios pasan, y explicas por que un tipo no valida datos en runtime.
 - [ ] 1.3 Sesion: aprender el ciclo SDD del proyecto. **Objetivo:** conectar requisito, escenario, tarea y prueba. **Conceptos:** proposal, spec, design, tasks, apply, verify y archive. **Construye:** elige un escenario de `platform-foundation` y escribe la prueba que lo demostraria antes del codigo. **Verifica/cierre:** `openspec status --change plan-ecommerce-learning-path` muestra el plan listo y puedes recorrer la trazabilidad completa.
 
