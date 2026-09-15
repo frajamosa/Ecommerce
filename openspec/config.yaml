@@ -1,0 +1,40 @@
+schema: spec-driven
+
+context: |
+  Proyecto educativo greenfield de ecommerce para aprender TypeScript, NestJS y PostgreSQL haciendo.
+  Arquitectura inicial: monorepo pnpm con apps/storefront (React + Vite), apps/bff (NestJS),
+  apps/api (NestJS) y PostgreSQL local mediante Docker Compose. TypeORM administrara persistencia
+  y migraciones. El panel administrativo vive en el mismo storefront bajo rutas protegidas.
+  El navegador solo consume el BFF; el BFF no posee logica de negocio ni base de datos y reenvia
+  las solicitudes a la API. La API conserva la autorizacion final de recursos y operaciones.
+  La implementacion la realiza el usuario con guia paso a paso, lenguaje claro y ejercicios pequenos.
+  Cada incremento debe explicar el concepto, pedir al usuario escribir el codigo, verificarlo con
+  pruebas y cerrar con una breve reflexion antes de avanzar.
+  Idioma de documentacion y guia: espanol. Codigo e identificadores: ingles.
+
+rules:
+  proposal:
+    - Incluye objetivos, no objetivos, supuestos y alcance MVP.
+    - Prioriza aprendizaje progresivo por sobre sofisticacion de produccion.
+  specs:
+    - Usa requisitos verificables y escenarios GIVEN WHEN THEN.
+    - Separa responsabilidades de storefront, BFF, API y base de datos.
+    - Declara seguridad, accesibilidad, responsive y estados de error relevantes.
+  design:
+    - Explica decisiones y alternativas con lenguaje apto para una persona que esta aprendiendo.
+    - Incluye arquitectura, limites, flujo de autenticacion, modelo de datos y estrategia de pruebas.
+  tasks:
+    - Organiza el trabajo en incrementos verticales ejecutables en orden.
+    - Divide las tareas en sesiones de aprendizaje de aproximadamente 45 a 120 minutos.
+    - Cada sesion incluye objetivo, conceptos, implementacion, prueba y criterio de finalizacion.
+    - No marques tareas como completadas hasta que el usuario implemente y verifique el resultado.
+
+operations:
+  apply:
+    guidance:
+      - Guia una sesion de aprendizaje por vez y espera el resultado del usuario antes de continuar.
+      - No escribas la solucion completa si el usuario no la solicita; usa pistas y fragmentos pequenos.
+      - Actualiza las casillas de tasks.md solo con evidencia de implementacion y pruebas.
+  archive:
+    guidance:
+      - Archiva solo cuando todos los escenarios aplicables esten verificados.

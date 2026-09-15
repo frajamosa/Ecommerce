@@ -1,0 +1,5 @@
+schema: spec-driven
+created: 2026-09-14
+goal: Definir la arquitectura y el recorrido incremental para aprender
+  TypeScript, NestJS y PostgreSQL construyendo un ecommerce con storefront, BFF
+  y API
