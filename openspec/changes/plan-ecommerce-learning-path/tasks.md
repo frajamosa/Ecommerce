@@ -1,6 +1,6 @@
 ## 0. Repositorio y proteccion del trabajo
 
-- [ ] 0.1 Sesion: publicar la base del proyecto. **Objetivo:** convertir la carpeta actual en la copia local de `https://github.com/frajamosa/Ecommerce.git`. **Conceptos:** repositorio, rama, remoto, staging, commit y push. **Construye:** crea primero `.gitignore`, inicializa Git en `main`, configura `origin`, revisa el diff, crea el commit inicial con OpenSpec y publicalo sin secretos. **Verifica/cierre:** `gh auth status`, `git remote -v`, `git status`, `git log -1` y GitHub confirman identidad, remoto correcto, arbol limpio y archivos publicados en `origin/main`; explica con tus palabras la diferencia entre commit y push.
+- [x] 0.1 Sesion: publicar la base del proyecto. **Objetivo:** convertir la carpeta actual en la copia local de `https://github.com/frajamosa/Ecommerce.git`. **Conceptos:** repositorio, rama, remoto, staging, commit y push. **Construye:** crea primero `.gitignore`, inicializa Git en `main`, configura `origin`, revisa el diff, crea el commit inicial con OpenSpec y publicalo sin secretos. **Verifica/cierre:** `gh auth status`, `git remote -v`, `git status`, `git log -1` y GitHub confirman identidad, remoto correcto, arbol limpio y archivos publicados en `origin/main`; explica con tus palabras la diferencia entre commit y push.
 
 ## 1. Preparacion y fundamentos de TypeScript
 
